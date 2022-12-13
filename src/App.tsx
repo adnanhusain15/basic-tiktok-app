@@ -1,7 +1,7 @@
 
 import './App.css';
 
-const serverApi = `http://192.168.1.11:4002/auth/tiktok`;
+const serverApi = localStorage.getItem('api_url') || `http://192.168.1.11:4002/auth/tiktok`;
 
 function App() {
   return (
