@@ -1,5 +1,4 @@
-import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 
 const serverApi = `http://192.168.1.11:4002/auth/tiktok`;
