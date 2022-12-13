@@ -2,23 +2,12 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+const serverApi = `http://192.168.1.11:4002/auth/tiktok`;
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <a target={'_blank'} href={serverApi} rel="noreferrer">Continue with TikTok</a>
     </div>
   );
 }
